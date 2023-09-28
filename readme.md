@@ -18,15 +18,15 @@
 
 
 
-The raw data will be dowmloaded from its source in [Kaggle datasets](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo/data) in xls format and then saved as csv file into this github repository. 
+The raw data will be dowmloaded from its source in [Kaggle datasets](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo/data) in `xls` format and then saved as `csv` file into [`this`](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/tree/main/data/raw) github directory. 
 
-Prior to starting with any of the Azure Tools or Services, we will neeed to create a `Storage Account`.
+Prior to starting with any of the Azure Tools or Services, we will neeed to create a new `Storage Account` and `Resource Group`.
 
 Later on, we will using `Data Factory` in order to load/ingest it into the 'raw directory' in our `Data Lake Storage` further on. This data loading will be the result of the ingestion pipeline created within the Data Factory.
 
 Once the data in this 'raw' directory is ready to be transformed, we will use `Azure Databricks` platform to write and run some Spark code. 
-
-Prior doing so, and in order to connect `Databricks` to the 'transformed' directory into out Data Lake, we will need to create and set up a new `workspace`, `cluster`, `credentials app`, `client secret` and a `new role assignment`. By the end of this stage, the transformed data will be loaded into another the 'transformed' directory in our `Data Lake Storage`.
+Before doing so, and in order to connect `Databricks` to the 'transformed' directory into out Data Lake, we will need to create and set up a new `workspace`, `cluster`, `credentials app`, `client secret` and a `new role assignment` into our Access Control (IAM). 
+By the end of this stage, the transformed data will be loaded into the 'transformed' directory in our `Data Lake Storage`.
 
 
 ## Code and Services utilized
