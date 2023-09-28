@@ -148,8 +148,7 @@ The last step to configure prior to start our Spark code, is to explicitly give 
 
 Once we have done all this, we will be able to mount the data lake shown below intp this new location `/mnt/tokyoolympic`, this is:
 
-![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/b00824c8-09c1-491c-8a53-4b37f5069d4a)
-
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/88982ba3-d24e-49bc-871d-ea3d04d950e4)
 
 
 
