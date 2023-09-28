@@ -81,13 +81,13 @@ Since our raw data is access through our HTTP server and it's stored in csv file
 <p align="center">
 <img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/a56e247c-80f3-4d45-8801-6a71d3ce8638"  width="60%" height="60%">
 
-When the `Linked service` is already created we make sure the `Frist row as header` option is checked to avoid future data cleaning/transformation.
+When the `Linked service` is already created we make sure the `Frist row as header` option is checked to avoid future data cleaning/transformation, as shown below:
 
 
 <p align="center">
 <img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/4ff5b4f6-da7e-4583-b51c-39596f620ff3"  width="60%" height="60%">
 
-Next, we will set up our `Sink`. This step will call to create a new `Sink dataset` so that we can connect to Azure Data Lake Storage. We are using the same `Storage account` we created before
+Next, we will set up our `Sink`. This step will call for creating a new `Sink dataset` so that we can connect to Azure Data Lake Storage. We are using the same `Storage account` we created before.
 
 
 <p align="center">
