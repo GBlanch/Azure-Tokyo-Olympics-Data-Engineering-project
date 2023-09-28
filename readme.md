@@ -142,5 +142,13 @@ Once our app is created and we have its `Application (client) ID` and `Directory
 
 Once we have these 3 credentials, it is highly recommended to store them into a Key Vault. This would minimize the chances for our credentials to be exposed/leaked through our code.
 
+The last step to coffigure prior to start our Spark code, is to explicitly give access to the app to handle any kind of object from the selected container. In order to do that, we 
+
+
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/45e8391f-0ebe-4a01-9622-53cf683359dd)
+
+
+
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/128f8d49-1b3d-4f96-89ae-54bce83a5cd7)
 
 
