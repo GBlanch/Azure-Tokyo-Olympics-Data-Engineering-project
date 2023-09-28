@@ -25,13 +25,13 @@ The raw data will be dowmloaded from [Kaggle datasets](https://www.kaggle.com/da
 
 Prior to starting with any of the Azure Tools or Services, we will neeed to create a new `Storage Account` and `Resource Group`.
 
-Later on, we will be using `Data Factory` in order to load/ingest this raw data into the 'raw' directory which will be located in our `Data Lake Storage`. This data ingestion will be the result of the pipeline to be created within the Data Factory.
+The next step will be to create and use `Data Factory` service in order to load/ingest this raw data into the 'raw' directory which will be located in our `Data Lake Storage`. This data ingestion will be the result of the pipeline to be created within the Data Factory.
 
 Once the data in this 'raw' directory is ready to be transformed, we will use `Azure Databricks` platform to write and run some Spark code. 
-Before doing so, and in order to connect `Databricks` to the 'transformed' directory into out Data Lake, we will need to create and set up a new `workspace`, `cluster`, `credentials app`, `client secret` and a `new role assignment` into our Access Control (IAM). 
+Before doing so, and in order to connect `Databricks` to the 'transformed' directory with our Data Lake, we will need to create and set up a new `workspace`, `cluster`, `credentials app`, `client secret` and a `new role assignment` into our Access Control (IAM). 
 By the end of this stage, the transformed data will be loaded into the 'transformed' directory in our `Data Lake Storage`.
 
-Finally, we will create a new `workspace` for `Synapse Analytics` so that we can create a new `Lake database`. In this Lake database, we will have available the databases which are also stored in the previously mentioned 'transformed' directory in our `Data Lake Storage`. We will also be able to create a SQL script with some queries so that we can have a quick glance at some visualizations and analytics about these datasets.
+Finally, we will create a new `workspace` for `Synapse Analytics` so that we can create a new `Lake database`. In this Lake database, we will have available all the databases which are also stored in the previously mentioned 'transformed' directory in our `Data Lake Storage`. We will also be able to create a SQL script with some queries so that we can have a quick glance at some visualizations and analytics about these datasets.
 
 
 ## Code and Services utilized
