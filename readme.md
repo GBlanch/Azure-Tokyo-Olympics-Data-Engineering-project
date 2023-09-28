@@ -125,6 +125,20 @@ Likewise when we set up our Data Factory service, we will use the same `Resource
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/df4b6961-c4cc-412f-adb4-25a694066210)
 
+Once we launch the workspace, we create a Compute so that we can run our Spark code.
+
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/9a7b185e-b138-477b-b253-e6400c872027)
+
+When cresting our `Cluster`, we will select `Single Node` as we won't be needing to use multiple machines or much resources to run our Transformation code.
+
+Before writing any Spark code, we need to register an App in order to get some credentials. This step will allow us to go trhough the authentication process in order to mount the Data Lake storage to the Data Factory.
+
+
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/3da3891a-29b1-4b1c-aad1-28fe70fe068c)
+
+Once our app is created and we have its `Application (client) ID` and `Directory (tenant) ID`, we next create a `Secret ID` ans its `Secret Key` by creating a new `Client Secret`
+
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/a3dbd61e-ca50-4fc7-a681-c36be19ffc72)
 
 
 
