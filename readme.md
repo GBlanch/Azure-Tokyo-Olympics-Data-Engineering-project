@@ -77,7 +77,9 @@ For the `Source` tab, we first create a new `Source Dataset`.
 
 Since our raw data is access through our HTTP server and it's stored in csv file format, we will choose the HTTP and csv file formats when being prompted after selecting `New Dataset`. Next, we need to create a `Linked service` within this new Dataset. Here is where we will pass the [`raw URL`](https://raw.githubusercontent.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/main/data/raw/Coaches.csv) from our git repository.
 
-![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/939481b4-6643-4862-b7de-8d23443d47b3)
+
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/a56e247c-80f3-4d45-8801-6a71d3ce8638)
+
 
 
 We will repeat the same proces for  the other 4 csv files. Then the ETL pipeline results as follows:
