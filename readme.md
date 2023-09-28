@@ -14,17 +14,17 @@
 ## Architecture of the Data Pipeline
 
 
-![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/ed7b5224-f512-4c90-990b-2d10efbd8890)
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/e5906b95-a11c-42c9-bac7-b678200f7f07)
 
 
 
-The raw data will be extracted from its source in [Kaggle datasets](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo/data) using Data Factory in order to load/ingest it into our Data Lake Storage location (Raw) further on. This data loading will be the result of the ingestion pipeline created within the Data Factory.
+The raw data will be dowmloaded from its source in [Kaggle datasets](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo/data) in xls format and then saved as csv file into this github repository. 
 
-Once the data is ready to be conveyed, the ETL orchestration will mainly occur within Azure Databricks environment. We will elaborate some code in Apache Spark and so get it loaded into another Data Lake Storage location(Transformed).
+Prior to starting with any of the Azure Tools or Services, we will neeed to create a `Storage Account`.
 
-Next, we will run some SQL functions and analytics queries in Azure Synapse analytics so that we can produce some dashboards and reports later on using Power BI.
+Later on, we will using `Data Factory` in order to load/ingest it into the 'raw directory' in our `Data Lake Storage` further on. This data loading will be the result of the ingestion pipeline created within the Data Factory.
 
-
+Once the data in this 'raw' directory is ready to be transformed, we will use Azure Databricks platform to write and run some Spark code. Prior doing so, and in order to connect Databricks to the 'transformed' directory into out Data Lake, we will need to create and set up a new `workspace`, `cluster`, `credentials app`, `client secret` and a `new role assignment`. By the end of this stage, the transformed data will be loaded into another the 'transformed' directory in our `Data Lake Storage`.
 
 
 ## Code and Services utilized
