@@ -13,7 +13,9 @@
 
 ## Architecture of the Data Pipeline
 
-(image)
+
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/c52de7bb-03b7-4e8c-9758-57b526b72d8b)
+
 
 The raw data will be extracted from its source (Kaggle website) using Data Factory in order to load/ingest it into our Data Lake Storage location (Raw) further on. This data loading will be the result of the ingestion pipeline created within the Data Factory.
 
