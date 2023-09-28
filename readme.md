@@ -55,3 +55,5 @@ When creating our Data Factory, we will select the same `Resource Group` and cre
 
 Next, we will begin ingesting the data stored inside the raw-data container.
 
+[Back to Table of Contents](#table-of-contents)
+
