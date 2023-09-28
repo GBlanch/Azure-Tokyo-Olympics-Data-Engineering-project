@@ -28,6 +28,8 @@ Once the data in this 'raw' directory is ready to be transformed, we will use `A
 Before doing so, and in order to connect `Databricks` to the 'transformed' directory into out Data Lake, we will need to create and set up a new `workspace`, `cluster`, `credentials app`, `client secret` and a `new role assignment` into our Access Control (IAM). 
 By the end of this stage, the transformed data will be loaded into the 'transformed' directory in our `Data Lake Storage`.
 
+Finally, we will create a new `workspace` for `Synapse Analytics` so that we can create a new `Lake database`. In this Lake database, we will have available the databases which are also stored in the previously mentioned 'transformed' directory in our `Data Lake Storage`. We will also be able to create some SQL scripts in order to have a quick glance at some visualizations and analytics of these datasets.
+
 
 ## Code and Services utilized
 
