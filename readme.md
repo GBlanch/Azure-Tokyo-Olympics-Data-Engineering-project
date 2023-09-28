@@ -6,7 +6,7 @@
 - [Architecture of the Data Pipeline](#architecture-of-the-data-pipeline)
 - [Code and Services utilized](#code-and-services-utilized)
 - [Storage Account and Resource Group](#storage-account-and-resource-group)
-- [Data Lake : Storage ](#data-lake:storage )
+- [Data Lake:Storage ](#data-lake:storage )
 - [Data Factory : Ingestion Pipeline](#data-factory:ingestion-pipeline)
 - [Azure Databricks : Transformation](#azure-databricks-:transformation)
 - []()
