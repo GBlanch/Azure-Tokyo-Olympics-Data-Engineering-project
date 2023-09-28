@@ -98,14 +98,18 @@ Once the `Linked Services` from our Data Factory to our Data Lake Storage is cre
 <p align="center">
 <img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/c1204842-28e5-4334-9297-0135b99d95fb)"  width="60%" height="60%">
 
-
+Once it's all set,  were are ready validated and debug.
 We will repeat the same proces for  the other 4 csv files. Then the ETL pipeline results as follows:
 
-![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/c56bda83-1c9f-4513-bbc4-f0550d5767e3)
 
-Note that all the blocks were already validated and debugged succesfully.
+<p align="center">
+<img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/c56bda83-1c9f-4513-bbc4-f0550d5767e3"  width="60%" height="60%">
 
 
+And we can find all these datasets inside our raw-data directory we created before in our Container.
+
+<p align="center">
+<img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/f4dfc6e3-ccdb-460a-a8ca-782365a1e476)"  width="60%" height="60%">
 
 
 [Back to Table of Contents](#table-of-contents)
