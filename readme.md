@@ -142,13 +142,15 @@ Once our app is created and we have its `Application (client) ID` and `Directory
 
 Once we have these 3 credentials, it is highly recommended to store them into a Key Vault. This would minimize the chances for our credentials to be exposed/leaked through our code.
 
-The last step to configure prior to start our Spark code, is to explicitly give access to the app to handle any kind of object from the selected container. We will do this through the IAM framework within the container we created before. We will select `Storage Blob Data Contributor` in the section `Add role assignment`
+The last step to configure prior to start our Spark code, is to explicitly give access to the app to handle - or even read -any kind of object from the selected container. We will do this through the IAM framework within the container we created before. We will select `Storage Blob Data Contributor` in the section `Add role assignment`
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/45e8391f-0ebe-4a01-9622-53cf683359dd)
 
-Once we have done all this, we will be able to mount the data lake shown below intp this new location `/mnt/tokyoolympic`, this is:
+Once we have done all this, we will be able to mount the data lake shown below intp this new location/mounting point `/mnt/tokyoolympic`, this is to say:
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/88982ba3-d24e-49bc-871d-ea3d04d950e4)
+
+
 
 
 
