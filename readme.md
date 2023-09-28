@@ -103,7 +103,7 @@ We will repeat the same proces for  the other 4 csv files. Then the ETL pipeline
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/c56bda83-1c9f-4513-bbc4-f0550d5767e3)
 
-Note that the instances were already validated and debugged succesfully.
+Note that all the blocks were already validated and debugged succesfully.
 
 
 
