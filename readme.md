@@ -46,7 +46,7 @@ Once the SA is deployed, we can also access to our new `Resource Group` wherein 
 
 ### Data Lake
 
-Next, we are ready to create a new `Container` to store our raw data in the Data Lake. 
+Since we have already our Storage Acount all set up, we are ready to create a new `Container` to store our raw data in the Data Lake. 
 
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/dcef6881-ee50-4f7b-a0b9-a4e040dbb1fc)
