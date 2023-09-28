@@ -6,6 +6,7 @@
 - [Architecture of the Data Pipeline](#architecture-of-the-data-pipeline)
 - [Code and Services utilized](#code-and-services-utilized)
 - [Storage Account setting up](#storage-account-setting-up)
+- [Transformation](#transformation)
 
 ## Introdution
 
@@ -28,7 +29,7 @@ Next, we will run some SQL functions and analytics queries in Azure Synapse anal
 
 
 
-## Storage Account setting up
+## Setting up Azure Services
 
 In order to start using Data Lake and Data Factory - amongst many other Azure services - we need first to create a `Storage Account`.
 
@@ -44,7 +45,7 @@ When creating it, besides creating a new `Resource Group`, we need to make sure 
 
 Once the SA is deployed, we can also access to our new `Resource Group` wherein we can see all the resources available. Note that in the image above, besides de Storage Account, we already created the rest of the services to be used (Data Factory, Databricks and Synapse Analytics)
 
-### Data Lake
+### Raw Data Storage
 
 Since we have already our Storage Acount all set up, we are ready to create a new `Container` to store our raw data in the Data Lake. 
 
@@ -59,7 +60,7 @@ Inside this container, we will create 2 new `Directories`. The function of these
 
 
 
-### Data Factory
+### Data Ingestion
 
 When creating our Data Factory, we will select the same `Resource Group` and create a new instance based on our closest region. This will enable the resources available in this integration service.
 
@@ -114,7 +115,11 @@ And we can find all these datasets inside our raw-data directory we created befo
 <p align="center">
 <img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/f4dfc6e3-ccdb-460a-a8ca-782365a1e476)"  width="80%" height="80%">
 
-Therefore, after finalizing the ingestion and storage of the data, we can move onto the
+Therefore, after finalizing the ingestion and storage of the data, we can move onto the Transformation stage with Azure Databricks
 
 [Back to Table of Contents](#table-of-contents)
+
+## Transformation
+
+
 
