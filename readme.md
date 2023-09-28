@@ -65,7 +65,13 @@ When creating our Data Factory, we will select the same `Resource Group` and cre
 
 Once the deployment for this service is finalized, we are ready to launch Data Factory an so begin ingesting the data from its external source (github repo) into our target location (Data Lake raw-data container)
 
-Therefore we create a new pipeline to start our ETL process.
+Therefore we create a new pipeline to start our ETL process. Next, we can add Copy blocks which will be configured further on.
+Mainly the tabs to configure will be `Source` and `Sink`.
+
+When configuring the Source, we will add our raw URL from our repository
+
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/939481b4-6643-4862-b7de-8d23443d47b3)
+
 
 We will repeat the same proces for  the other 4 csv files. Then the ETL pipeline results as follows:
 
