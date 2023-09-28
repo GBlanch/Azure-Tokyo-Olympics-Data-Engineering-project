@@ -63,7 +63,18 @@ Inside this container, we will create 2 new `Directories`. The function of these
 
 When creating our Data Factory, we will select the same `Resource Group` and create a new instance based on our closest region. This will enable the resources available in this integration service.
 
-Next, we will begin ingesting the data stored inside the raw-data container.
+Once the deployment for this service is finalized, we are ready to launch Data Factory an so begin ingesting the data from its external source (github repo) into our target location (Data Lake raw-data container)
+
+Therefore we create a new pipeline to start our ETL process.
+
+We will repeat the same proces for  the other 4 csv files. Then the ETL pipeline results as follows:
+
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/c56bda83-1c9f-4513-bbc4-f0550d5767e3)
+
+Note that the instances were already validated and debugged succesfully.
+
+
+
 
 [Back to Table of Contents](#table-of-contents)
 
