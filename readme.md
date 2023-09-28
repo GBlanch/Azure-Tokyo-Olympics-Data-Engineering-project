@@ -112,7 +112,7 @@ Then the ETL pipeline results as follows:
 And we can find all these datasets inside our raw-data directory we created before in our Container.
 
 <p align="center">
-<img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/f4dfc6e3-ccdb-460a-a8ca-782365a1e476)"  width="60%" height="60%">
+<img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/f4dfc6e3-ccdb-460a-a8ca-782365a1e476)"  width="100%" height="100%">
 
 
 [Back to Table of Contents](#table-of-contents)
