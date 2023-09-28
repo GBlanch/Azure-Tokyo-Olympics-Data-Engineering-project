@@ -69,7 +69,7 @@ Once the deployment for this service is finalized, we are ready to launch Data F
 
 Therefore we create a new pipeline to start our ETL process. We can therefore add Copy blocks which will be configured further on.
 
-![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/c6d4c159-1bd2-41a5-b81a-4e405bb45638)
+<img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/c6d4c159-1bd2-41a5-b81a-4e405bb45638"  width="40%" height="40%">
 
 Inside these instances, we mainly want to configure the tabs `Source` and `Sink`.
 
@@ -78,8 +78,7 @@ For the `Source` tab, we first create a new `Source Dataset`.
 Since our raw data is access through our HTTP server and it's stored in csv file format, we will choose the HTTP and csv file formats when being prompted after selecting `New Dataset`. Next, we need to create a `Linked service` within this new Dataset. Here is where we will pass the [`raw URL`](https://raw.githubusercontent.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/main/data/raw/Coaches.csv) from our git repository.
 
 
-![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/a56e247c-80f3-4d45-8801-6a71d3ce8638)
-
+<img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/a56e247c-80f3-4d45-8801-6a71d3ce8638"  width="40%" height="40%">
 
 
 We will repeat the same proces for  the other 4 csv files. Then the ETL pipeline results as follows:
