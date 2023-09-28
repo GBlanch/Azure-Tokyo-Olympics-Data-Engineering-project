@@ -38,6 +38,8 @@ Finally, we will create a new `workspace` for `Synapse Analytics` so that we can
 
 
 
+[Back to Table of Contents](#table-of-contents)
+
 
 ## Storage Account and Resource Group
 
@@ -55,6 +57,9 @@ When creating it, besides creating a new `Resource Group`, we need to make sure 
 
 Once the SA is deployed, we can also access to our new `Resource Group` wherein we can see all the resources available. Note that in the image above, besides de Storage Account, we already created the rest of the services to be used (Data Factory, Databricks and Synapse Analytics)
 
+[Back to Table of Contents](#table-of-contents)
+
+
 ## Data Lake Storage 
 
 Since we have already our Storage Account all set up, we are ready to create a new `Container` to store our data in the `Data Lake`. 
@@ -68,6 +73,8 @@ Inside this container, we will create 2 new `Directories`. The function of these
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/725e8723-3192-4f0e-82bc-6a6ecd85b375)
 
+
+[Back to Table of Contents](#table-of-contents)
 
 
 ## Data Factory Ingestion Pipeline
