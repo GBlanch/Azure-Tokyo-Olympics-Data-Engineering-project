@@ -65,10 +65,13 @@ When creating our Data Factory, we will select the same `Resource Group` and cre
 
 Once the deployment for this service is finalized, we are ready to launch Data Factory an so begin ingesting the data from its external source (github repo) into our target location (Data Lake raw-data container)
 
-Therefore we create a new pipeline to start our ETL process. Next, we can add Copy blocks which will be configured further on.
-Mainly the tabs to configure will be `Source` and `Sink`.
+Therefore we create a new pipeline to start our ETL process. We can therefore add Copy blocks which will be configured further on.
 
-When configuring the Source, we will add our raw URL from our repository
+Inside these instances, we mainly want to configure the tabs `Source` and `Sink`.
+
+For the `Source` tab, we first create a new `Source Dataset`. 
+
+Since our raw data is access through our HTTP server and it's stored in csv file format, we will choose the HTTP and csv file formats when being prompted after selecting `New Dataset`. Next, we need to create a `Linked service` within this new Dataset. Here is where we will pass the [`raw URL`](https://raw.githubusercontent.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/main/data/raw/Coaches.csv) from our git repository.
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/939481b4-6643-4862-b7de-8d23443d47b3)
 
