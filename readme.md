@@ -24,7 +24,9 @@ Prior to starting with any of the Azure Tools or Services, we will neeed to crea
 
 Later on, we will using `Data Factory` in order to load/ingest it into the 'raw directory' in our `Data Lake Storage` further on. This data loading will be the result of the ingestion pipeline created within the Data Factory.
 
-Once the data in this 'raw' directory is ready to be transformed, we will use Azure Databricks platform to write and run some Spark code. Prior doing so, and in order to connect Databricks to the 'transformed' directory into out Data Lake, we will need to create and set up a new `workspace`, `cluster`, `credentials app`, `client secret` and a `new role assignment`. By the end of this stage, the transformed data will be loaded into another the 'transformed' directory in our `Data Lake Storage`.
+Once the data in this 'raw' directory is ready to be transformed, we will use `Azure Databricks` platform to write and run some Spark code. 
+
+Prior doing so, and in order to connect `Databricks` to the 'transformed' directory into out Data Lake, we will need to create and set up a new `workspace`, `cluster`, `credentials app`, `client secret` and a `new role assignment`. By the end of this stage, the transformed data will be loaded into another the 'transformed' directory in our `Data Lake Storage`.
 
 
 ## Code and Services utilized
