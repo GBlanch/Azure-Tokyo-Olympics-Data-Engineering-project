@@ -21,7 +21,7 @@
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/e5906b95-a11c-42c9-bac7-b678200f7f07)
 
 
-The raw data will be dowmloaded from its source in [Kaggle datasets](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo/data) in `xls` format and then saved as `csv` file into [`this`](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/tree/main/data/raw) github directory. 
+The raw data will be dowmloaded from [Kaggle datasets](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo/data) in `xls` format and then saved as `csv` file into [`this`](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/tree/main/data/raw) github directory. 
 
 Prior to starting with any of the Azure Tools or Services, we will neeed to create a new `Storage Account` and `Resource Group`.
 
