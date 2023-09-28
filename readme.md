@@ -18,7 +18,7 @@
 
 
 
-The raw data will be extracted from its source (Kaggle website) using Data Factory in order to load/ingest it into our Data Lake Storage location (Raw) further on. This data loading will be the result of the ingestion pipeline created within the Data Factory.
+The raw data will be extracted from its source in [Kaggle datasets](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo/data) using Data Factory in order to load/ingest it into our Data Lake Storage location (Raw) further on. This data loading will be the result of the ingestion pipeline created within the Data Factory.
 
 Once the data is ready to be conveyed, the ETL orchestration will mainly occur within Azure Databricks environment. We will elaborate some code in Apache Spark and so get it loaded into another Data Lake Storage location(Transformed).
 
