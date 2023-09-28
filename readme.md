@@ -67,12 +67,12 @@ When creating our Data Factory, we will select the same `Resource Group` and cre
 
 Once the deployment for this service is finalized, we are ready to launch Data Factory and so begin ingesting the data from its external source (github repo) into our target location (Data Lake raw-data container)
 
-Therefore we create a new pipeline to start our ETL process. We can therefore add Copy blocks which will be configured further on.
+Therefore we create a new pipeline to start our ETL process. We can therefore add `Copy Data` blocks which will be configured further on.
 
 <p align="center">
 <img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/c6d4c159-1bd2-41a5-b81a-4e405bb45638"  width="60%" height="60%">
 
-Inside these instances, we mainly want to configure the tabs `Source` and `Sink`.
+Inside these blocks/instances, we mainly want to configure the tabs `Source` and `Sink`.
 
 For the `Source` tab, we first create a new `Source Dataset`. 
 
