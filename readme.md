@@ -1,5 +1,7 @@
 # Azure Tokyo Olympics Data Engineering project
 
+work in progress
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -9,8 +11,6 @@
 - [Data Lake Storage](#data-lake-storage)
 - [Data Factory Ingestion Pipeline](#data-factory-ingestion-pipeline)
 - [Azure Databricks Transformation](#azure-databricks-transformation)
-- []()
-- []()
 
 ## Introduction
 
