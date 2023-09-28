@@ -127,7 +127,7 @@ Then the ingestion pipeline results as follows:
 <img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/c56bda83-1c9f-4513-bbc4-f0550d5767e3"  width="100%" height="100%">
 
 
-And we can find all these datasets inside our raw-data directory we created before in our Container.
+And so we can find all these datasets inside our raw-data directory we created before in our Container.
 
 <p align="center">
 <img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/f4dfc6e3-ccdb-460a-a8ca-782365a1e476)"  width="80%" height="80%">
