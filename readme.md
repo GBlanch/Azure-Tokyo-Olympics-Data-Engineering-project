@@ -30,19 +30,19 @@ Next, we will run some SQL functions and analytics queries in Azure Synapse anal
 
 ## Storage Account setting up
 
-In order to start using Data Lake and Data Factory - amongst many other Azure services - we need first to create a Storage Account.
+In order to start using Data Lake and Data Factory - amongst many other Azure services - we need first to create a `Storage Account`.
 
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/447aca01-32c9-4a7e-b5a6-572ce946338a)
 
 
-When creating our Storage Account, besides creating a new `Resource Group`, we need to make sure to Enable the `Hierarchical namespace` so that all the objects stored inside the containers will be kept in hierarchical data format. 
+When creating it, besides creating a new `Resource Group`, we need to make sure to Enable the `Hierarchical namespace` so that all the objects stored inside the containers will be kept in hierarchical data format. 
 
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/35ebb05d-34b8-4143-a269-caac1aa6e66b)
 
 
-This HDF format is the same manner as data is stored in any local and conventional machine.
+This HDF format has the same nature as the data stored in any local and conventional machine.
 
 ### Data Lake
 
