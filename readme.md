@@ -131,7 +131,7 @@ Once we launch the workspace, we create a Compute so that we can run our Spark c
 
 When cresting our `Cluster`, we will select `Single Node` as we won't be needing to use multiple machines or much resources to run our Transformation code.
 
-Before writing any Spark code, we need to register an App in order to get some credentials. This step will allow us to go through the authentication process in order to mount the Data Lake storage to the Data Factory.
+Before writing any Spark code, we need to register an app in order to get some credentials. This step will allow us to go through the authentication process in order to mount the Data Lake storage to the Data Factory.
 
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/3da3891a-29b1-4b1c-aad1-28fe70fe068c)
@@ -142,13 +142,11 @@ Once our app is created and we have its `Application (client) ID` and `Directory
 
 Once we have these 3 credentials, it is highly recommended to store them into a Key Vault. This would minimize the chances for our credentials to be exposed/leaked through our code.
 
-The last step to coffigure prior to start our Spark code, is to explicitly give access to the app to handle any kind of object from the selected container. In order to do that, we 
-
+The last step to configure prior to start our Spark code, is to explicitly give access to the app to handle any kind of object from the selected container. We will do this through the IAM framework within the container we created before. We will select `Storage Blob Data Contributor` in the section `Add role assignment`
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/45e8391f-0ebe-4a01-9622-53cf683359dd)
 
 
 
-![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/128f8d49-1b3d-4f96-89ae-54bce83a5cd7)
 
 
