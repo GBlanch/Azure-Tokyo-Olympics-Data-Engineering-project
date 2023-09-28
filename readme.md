@@ -87,12 +87,13 @@ When the `Linked service` is already created we make sure the `Frist row as head
 <p align="center">
 <img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/4ff5b4f6-da7e-4583-b51c-39596f620ff3"  width="60%" height="60%">
 
-Next, we will set up our `Sink`. This step will call to create a new `Sink dataset` so that we can connect to Azure Data Lake Storage.
+Next, we will set up our `Sink`. This step will call to create a new `Sink dataset` so that we can connect to Azure Data Lake Storage. We are using the same `Storage account` we created before
 
 
 <p align="center">
 <img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/150e2061-8770-47de-8a23-4599321d6668"  width="60%" height="60%">
 
+Once the `Linked Services` from our Data Factory to our Data Lake Storage is created, we will define the destination file path. We can browse to navigate into our raw-data directory we created before inside our Container. We finally create a name for the csv file to be stored.
 
 <p align="center">
 <img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/be7e63b3-21ad-4f13-90ac-8fb096a01549"  width="60%" height="60%">
