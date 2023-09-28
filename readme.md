@@ -40,11 +40,11 @@ This HDF format is the same manner as data is stored in any local and convention
 
 ### Data Lake
 
-Once the SA is deployed, we are ready to create a new container to store our raw data in the Data Lake. 
+Once the SA is deployed, we are ready to create a new `Container` to store our raw data in the Data Lake. 
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/dcef6881-ee50-4f7b-a0b9-a4e040dbb1fc)
 
-Inside this container, we will create 2 new directories. The function of these will be to store our raw and transformed data.
+Inside this container, we will create 2 new `Directories`. The function of these will be to store our raw and transformed data.
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/725e8723-3192-4f0e-82bc-6a6ecd85b375)
 
