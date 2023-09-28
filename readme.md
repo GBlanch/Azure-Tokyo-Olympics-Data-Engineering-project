@@ -17,18 +17,17 @@
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/e5906b95-a11c-42c9-bac7-b678200f7f07)
 
 
-
 The raw data will be dowmloaded from its source in [Kaggle datasets](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo/data) in `xls` format and then saved as `csv` file into [`this`](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/tree/main/data/raw) github directory. 
 
 Prior to starting with any of the Azure Tools or Services, we will neeed to create a new `Storage Account` and `Resource Group`.
 
-Later on, we will using `Data Factory` in order to load/ingest it into the 'raw directory' in our `Data Lake Storage` further on. This data loading will be the result of the ingestion pipeline created within the Data Factory.
+Later on, we will be using `Data Factory` in order to load/ingest this raw data into the 'raw' directory which will be located in our `Data Lake Storage`. This data ingestion will be the result of the pipeline to be created within the Data Factory.
 
 Once the data in this 'raw' directory is ready to be transformed, we will use `Azure Databricks` platform to write and run some Spark code. 
 Before doing so, and in order to connect `Databricks` to the 'transformed' directory into out Data Lake, we will need to create and set up a new `workspace`, `cluster`, `credentials app`, `client secret` and a `new role assignment` into our Access Control (IAM). 
 By the end of this stage, the transformed data will be loaded into the 'transformed' directory in our `Data Lake Storage`.
 
-Finally, we will create a new `workspace` for `Synapse Analytics` so that we can create a new `Lake database`. In this Lake database, we will have available the databases which are also stored in the previously mentioned 'transformed' directory in our `Data Lake Storage`. We will also be able to create some SQL scripts in order to have a quick glance at some visualizations and analytics of these datasets.
+Finally, we will create a new `workspace` for `Synapse Analytics` so that we can create a new `Lake database`. In this Lake database, we will have available the databases which are also stored in the previously mentioned 'transformed' directory in our `Data Lake Storage`. We will also be able to create a SQL script with some queries so that we can have a quick glance at some visualizations and analytics about these datasets.
 
 
 ## Code and Services utilized
@@ -36,7 +35,7 @@ Finally, we will create a new `workspace` for `Synapse Analytics` so that we can
 
 
 
-## Setting up Azure Services
+## Storage Account and Resource Group
 
 In order to start using Data Lake and Data Factory - amongst many other Azure services - we need first to create a `Storage Account`.
 
@@ -52,9 +51,9 @@ When creating it, besides creating a new `Resource Group`, we need to make sure 
 
 Once the SA is deployed, we can also access to our new `Resource Group` wherein we can see all the resources available. Note that in the image above, besides de Storage Account, we already created the rest of the services to be used (Data Factory, Databricks and Synapse Analytics)
 
-### Raw Data Storage
+### Data Lake : Storage 
 
-Since we have already our Storage Account all set up, we are ready to create a new `Container` to store our raw data in the Data Lake. 
+Since we have already our Storage Account all set up, we are ready to create a new `Container` to store our data in the `Data Lake`. 
 
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/dcef6881-ee50-4f7b-a0b9-a4e040dbb1fc)
@@ -67,7 +66,7 @@ Inside this container, we will create 2 new `Directories`. The function of these
 
 
 
-### Data Ingestion
+### Data Factory : Ingestion Pipeline
 
 When creating our Data Factory, we will select the same `Resource Group` and create a new instance based on our closest region. This will enable the resources available in this integration service.
 
@@ -126,13 +125,13 @@ Therefore, after finalizing the ingestion and storage of the data, we can move o
 
 [Back to Table of Contents](#table-of-contents)
 
-## Transformation
+## Azure Databricks : Transformation
 
 Likewise when we set up our Data Factory service, we will use the same `Resource Group` that we created when setting up our `Storage Account` at the beginning of this project:
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/df4b6961-c4cc-412f-adb4-25a694066210)
 
-Once we launch the workspace, we create a Compute so that we can run our Spark code.
+Once we launch the workspace, we create a `Compute` so that we can run our Spark code.
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/9a7b185e-b138-477b-b253-e6400c872027)
 
@@ -143,7 +142,8 @@ Before writing any Spark code, we need to register an app in order to get some c
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/3da3891a-29b1-4b1c-aad1-28fe70fe068c)
 
-Once our app is created and we have its `Application (client) ID` and `Directory (tenant) ID`, we next create a `Secret ID` and its `Secret Key` by creating a new `Client Secret`
+
+Once our app is created and we have its `Application (client) ID` and `Directory (tenant) ID`, we next create a `Secret ID` and its `Secret Key` by creating a new `Client Secret`.
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/a3dbd61e-ca50-4fc7-a681-c36be19ffc72)
 
@@ -157,4 +157,4 @@ Once we have done all this, we will be able to mount the data lake shown below i
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/661f893f-d849-46da-83fc-d3a408e0031e)
 
-The notebook with the `Transformation code` can be found [`here`]().
+Then it's all set to start writting the `transformation Spark code` which can be found [`here`]().
