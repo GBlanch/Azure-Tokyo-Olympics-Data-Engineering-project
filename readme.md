@@ -8,7 +8,7 @@
 - [Storage Account setting up](#storage-account-setting-up)
 - [Transformation](#transformation)
 
-## Introdution
+## Introduction
 
 
 ## Architecture of the Data Pipeline
@@ -50,7 +50,7 @@ Once the SA is deployed, we can also access to our new `Resource Group` wherein 
 
 ### Raw Data Storage
 
-Since we have already our Storage Acount all set up, we are ready to create a new `Container` to store our raw data in the Data Lake. 
+Since we have already our Storage Account all set up, we are ready to create a new `Container` to store our raw data in the Data Lake. 
 
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/dcef6881-ee50-4f7b-a0b9-a4e040dbb1fc)
@@ -104,7 +104,7 @@ Once the `Linked Services` from our Data Factory to our Data Lake Storage is cre
 <img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/8b16915a-8d19-4ec8-902a-44b4edbb4da1"  width="60%" height="60%">
 
 
-We will repeat the same proces for the other 4 csv flat files. Once they're all set, we are ready to validated and debug.
+We will repeat the same process for the other 4 csv flat files. Once they're all set, we are ready to validated and debug.
 
 Then the ingestion pipeline results as follows:
 
@@ -124,7 +124,7 @@ Therefore, after finalizing the ingestion and storage of the data, we can move o
 
 ## Transformation
 
-Likewise when we set up our Data Factory service, we will use the same `Resource Group` that we created when setting up our `Storage Account` at the begining of this project:
+Likewise when we set up our Data Factory service, we will use the same `Resource Group` that we created when setting up our `Storage Account` at the beginning of this project:
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/df4b6961-c4cc-412f-adb4-25a694066210)
 
@@ -139,7 +139,7 @@ Before writing any Spark code, we need to register an app in order to get some c
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/3da3891a-29b1-4b1c-aad1-28fe70fe068c)
 
-Once our app is created and we have its `Application (client) ID` and `Directory (tenant) ID`, we next create a `Secret ID` ans its `Secret Key` by creating a new `Client Secret`
+Once our app is created and we have its `Application (client) ID` and `Directory (tenant) ID`, we next create a `Secret ID` and its `Secret Key` by creating a new `Client Secret`
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/a3dbd61e-ca50-4fc7-a681-c36be19ffc72)
 
@@ -149,7 +149,7 @@ The last step to configure prior to start our Spark code, is to explicitly give 
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/45e8391f-0ebe-4a01-9622-53cf683359dd)
 
-Once we have done all this, we will be able to mount the data lake shown below intp this new location/mounting point `/mnt/tokyoolympic`, this is to say:
+Once we have done all this, we will be able to mount the data lake shown below into this new location/mounting point `/mnt/tokyoolympic`, this is to say:
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/661f893f-d849-46da-83fc-d3a408e0031e)
 
