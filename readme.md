@@ -93,7 +93,7 @@ Next, we will set up our `Sink`. This step will call to create a new `Sink datas
 <p align="center">
 <img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/150e2061-8770-47de-8a23-4599321d6668"  width="60%" height="60%">
 
-Once the `Linked Services` from our Data Factory to our Data Lake Storage is created, we will define the destination file path. We can browse to navigate into our raw-data directory we created before inside our Container. We finally create a name for the csv file to be stored and select None for the `Import schema` option.
+Once the `Linked Services` from our Data Factory to our Data Lake Storage is created, we will define the destination file path. We can browse to navigate into our raw-data directory we created before inside our Container. We finally create a name for the csv file to be stored and select `None` for the `Import schema` option.
 
 <p align="center">
 <img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/c1204842-28e5-4334-9297-0135b99d95fb)"  width="60%" height="60%">
