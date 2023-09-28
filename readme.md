@@ -115,11 +115,17 @@ And we can find all these datasets inside our raw-data directory we created befo
 <p align="center">
 <img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/f4dfc6e3-ccdb-460a-a8ca-782365a1e476)"  width="80%" height="80%">
 
-Therefore, after finalizing the ingestion and storage of the data, we can move onto the Transformation stage with Azure Databricks
+Therefore, after finalizing the ingestion and storage of the data, we can move onto the Transformation stage with Azure Databricks service
 
 [Back to Table of Contents](#table-of-contents)
 
 ## Transformation
+
+Likewise when we set up our Data Factory service, we will use the same `Resource Group` that we created when setting up our `Storage Account` at the begining of this project:
+
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/df4b6961-c4cc-412f-adb4-25a694066210)
+
+
 
 
 
