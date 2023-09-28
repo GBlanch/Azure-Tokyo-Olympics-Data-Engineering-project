@@ -14,7 +14,7 @@
 
 (image)
 
-The raw data will be extracted from its source (Kaggle website) using Data Factory in order to load/ingest it into our Data Lake Storage location (Raw) further on. This data loading will be the result of a pipeline created within the Data Factory.
+The raw data will be extracted from its source (Kaggle website) using Data Factory in order to load/ingest it into our Data Lake Storage location (Raw) further on. This data loading will be the result of the ingestion pipeline created within the Data Factory.
 
 Once the data is ready to be conveyed, the ETL orchestration will mainly occur within Azure Databricks environment. We will elaborate some code in Apache Spark and so get it loaded into another Data Lake Storage location(Transformed).
 
@@ -67,7 +67,7 @@ When creating our Data Factory, we will select the same `Resource Group` and cre
 
 Once the deployment for this service is finalized, we are ready to launch Data Factory and so begin ingesting the data from its external source (github repo) into our target location (Data Lake raw-data container)
 
-Therefore we create a new pipeline to start our ETL process. We can therefore add `Copy Data` blocks which will be configured further on.
+Therefore we create a new pipeline to start our ingestion pipeline process. We can therefore add `Copy Data` blocks which will be configured further on.
 
 <p align="center">
 <img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/c6d4c159-1bd2-41a5-b81a-4e405bb45638"  width="60%" height="60%">
@@ -100,9 +100,9 @@ Once the `Linked Services` from our Data Factory to our Data Lake Storage is cre
 <img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/8b16915a-8d19-4ec8-902a-44b4edbb4da1"  width="60%" height="60%">
 
 
-We will repeat the same proces for  the other 4 csv flat files. Once they're all set, we are ready to validated and debug.
+We will repeat the same proces for the other 4 csv flat files. Once they're all set, we are ready to validated and debug.
 
-Then the ETL pipeline results as follows:
+Then the ingestion pipeline results as follows:
 
 
 <p align="center">
@@ -114,6 +114,7 @@ And we can find all these datasets inside our raw-data directory we created befo
 <p align="center">
 <img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/f4dfc6e3-ccdb-460a-a8ca-782365a1e476)"  width="80%" height="80%">
 
+Therefore, after finalizing the ingestion and storage of the data, we can move onto the
 
 [Back to Table of Contents](#table-of-contents)
 
