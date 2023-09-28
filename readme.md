@@ -98,7 +98,7 @@ Once the `Linked Services` from our Data Factory to our Data Lake Storage is cre
 <p align="center">
 <img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/c1204842-28e5-4334-9297-0135b99d95fb)"  width="60%" height="60%">
 
-We will repeat the same proces for  the other 4 csv files. Once they're all set, we are ready to validated and debug.
+We will repeat the same proces for  the other 4 csv flat files. Once they're all set, we are ready to validated and debug.
 
 Then the ETL pipeline results as follows:
 
