@@ -18,7 +18,7 @@ work in progress
 ## Architecture of the Data Pipeline
 
 
-![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/e5906b95-a11c-42c9-bac7-b678200f7f07)
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/6da6ca7c-1650-4371-8118-576bbb9f2fee)
 
 
 The raw data will be dowmloaded from [Kaggle datasets](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo/data) in `xls` format and then saved as `csv` files into [`this`](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/tree/main/data/raw) github directory. 
