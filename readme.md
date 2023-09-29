@@ -183,9 +183,11 @@ We start creating its workspace the same way as we did with `Azure Databricks`. 
 
 Once the deployment is completed we can open `Synapse Studio` ans start creating a `Data Lake` in which we will create a new database. In this new database we will create a new table and it will be linked with the same `Linked Services` we created when setting up our `Data Lake Storage` 
 
+<p align="center">
+<img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/e99d05bb-4620-400b-96a3-bc7cd41ac6f9"  width="80%" height="80%">
 
 <p align="center">
-<img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/1b4f518e-d141-4f12-a923-cea16f7d5eb9"  width="60%" height="60%">
+<img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/ebc63d25-1674-4bd0-ba76-596a9da0f85b"  width="80%" height="80%">
 
 
 
