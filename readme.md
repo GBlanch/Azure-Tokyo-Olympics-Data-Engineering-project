@@ -181,5 +181,10 @@ We start creating its workspace the same way as we did with `Azure Databricks`. 
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/a90bd0cd-c0be-403c-ade0-c63792a87830)
 
-Once the deployment is completed 
+Once the deployment is completed we can open `Synapse Studio` ans start creating a `Data Lake` in which we will create a new database.
+
+
+<p align="center">
+<img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/1b4f518e-d141-4f12-a923-cea16f7d5eb9"  width="80%" height="80%">
+
 
