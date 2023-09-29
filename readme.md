@@ -197,6 +197,6 @@ When being asked for the input file or directory, we will browse to the location
 
 
 <p align="center">
-<img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/468df478-1b04-474c-b786-d9691b480f57"  width="80%" height="80%">
+<img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/468df478-1b04-474c-b786-d9691b480f57"  width="100%" height="100%">
 
 
