@@ -8,7 +8,7 @@ work in progress
 - [Architecture of the Data Pipeline](#architecture-of-the-data-pipeline)
 - [Code and Services utilized](#code-and-services-utilized)
 - [Storage Account and Resource Group](#storage-account-and-resource-group)
-- [Data Lake: Storage](#data-lake:-storage)
+- [Data Lake Storage](#data-lake-storage)
 - [Data Factory Ingestion Pipeline](#data-factory-ingestion-pipeline)
 - [Azure Databricks Transformation](#azure-databricks-transformation)
 
@@ -60,7 +60,7 @@ Once the SA is deployed, we can also access to our new `Resource Group` wherein 
 [Back to Table of Contents](#table-of-contents)
 
 
-## Data Lake: Storage 
+## Data Lake Storage 
 
 Since we have already our Storage Account all set up, we are ready to create a new `Container` to store our data in the `Data Lake`. 
 
