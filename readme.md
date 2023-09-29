@@ -176,3 +176,10 @@ Then it's all set to start writting the `transformation Spark code` which can be
 
 
 ## Synapse Analytics
+
+We start creating its workspace the same way as we did with `Azure Databricks`. We select the same `Resource Group` and `Strage Location` or `Primart ADLS` as shown below:
+
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/a90bd0cd-c0be-403c-ade0-c63792a87830)
+
+Once the deployment is completed 
+
