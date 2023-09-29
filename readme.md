@@ -11,6 +11,7 @@ work in progress
 - [Data Lake Storage](#data-lake-storage)
 - [Data Factory Ingestion Pipeline](#data-factory-ingestion-pipeline)
 - [Azure Databricks Transformation](#azure-databricks-transformation)
+- [Synapse Analytics](#synapse-analytics)
 
 ## Introduction
 
@@ -169,3 +170,8 @@ Once we have done all this, we will be able to mount the data lake shown below i
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/661f893f-d849-46da-83fc-d3a408e0031e)
 
 Then it's all set to start writting the `transformation Spark code` which can be found [`here`]().
+
+<p align="right">
+[Back to Table of Contents](#table-of-contents)
+
+## Synapse Analytics
