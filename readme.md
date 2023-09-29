@@ -181,7 +181,7 @@ We start creating its workspace the same way as we did with `Azure Databricks`. 
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/a90bd0cd-c0be-403c-ade0-c63792a87830)
 
-Once the deployment is completed we can open `Synapse Studio` ans start creating a `Data Lake` in which we will create a new database. In this new database we will create a new table and it will be linked with the same `Linked Services` we created when setting up our `Data Lake Storage` 
+Once the deployment is completed we can open `Synapse Studio` ans start creating a `Data Lake` in which we will create a new database. In this new database we will create a new table and this will be linked with the same `Linked Services` we created when setting up our `Data Lake Storage` 
 
 
 
@@ -193,14 +193,10 @@ Once the deployment is completed we can open `Synapse Studio` ans start creating
 <p align="center">
 <img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/ebc63d25-1674-4bd0-ba76-596a9da0f85b"  width="60%" height="60%">
 
+When being asked for the input file or directory, we will browse to the location in which we stored the partition files we generated at the end of the [`transformation Spark code`]() in `Azure Databricks`. Thes being:
 
 
 <p align="center">
 <img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/468df478-1b04-474c-b786-d9691b480f57"  width="80%" height="80%">
-
-
-
-<p align="center">
-<img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/7ab5082e-09a6-4491-88bf-2db24c0f4e97"  width="80%" height="80%">
 
 
