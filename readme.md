@@ -76,13 +76,15 @@ Once the SA is deployed, we can also access to our new `Resource Group` wherein 
 Since we have already our Storage Account all set up, we are ready to create a new `Container` to store our data in the `Data Lake`. 
 
 
-![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/dcef6881-ee50-4f7b-a0b9-a4e040dbb1fc)
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/e20a8b8a-4e66-4372-b6ff-2ab53b89ef7a)
+
 
 
 Inside this container, we will create 2 new `Directories`. The function of these will be to store our raw and transformed data.
 
 
-![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/725e8723-3192-4f0e-82bc-6a6ecd85b375)
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/347ae75d-e74a-4329-813e-10f3346b8af8)
+
 
 
 [Back to Table of Contents](#table-of-contents)
