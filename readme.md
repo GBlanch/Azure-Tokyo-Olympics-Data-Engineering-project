@@ -190,7 +190,8 @@ We will do this through the IAM framework within the container we created before
 
 Once we have done all this, we will be able to mount the data lake shown below into this new location/mounting point `/mnt/tokyoolympic`, this is to say:
 
-![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/661f893f-d849-46da-83fc-d3a408e0031e)
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/21264250-1946-4109-a7a3-522a6e2499ac)
+
 
 
 And so we are all set to start writting the `transformation Spark code`. This is, we will briefly show how we read, transform and load some of the data at once. We will use the function `option()` to regard the first row as the header, as well as to cast some of the data type from string to integer. The two Spark property names to be used within this function `option()` are `header` and `inferSchema`, and they are shown below:
