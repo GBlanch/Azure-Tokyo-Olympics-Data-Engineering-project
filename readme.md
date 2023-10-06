@@ -224,9 +224,10 @@ In the image above we see how `Apache Spark` stores the data in the form of diff
 
 ## Synapse Analytics
 
-We start creating its workspace the same way as we did with `Azure Databricks`. We select the same `Resource Group` and `Strage Location` or `Primart ADLS` as shown below:
+We start creating its workspace the same way as we did with `Azure Databricks`. We select the same `Resource Group` , `Storage Location` and `Primary ADLS` we created before, as shown below:
 
-![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/a90bd0cd-c0be-403c-ade0-c63792a87830)
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/7bfdf79a-a2ac-49c3-b8d7-b09cf1a592e3)
+
 
 Once the deployment is completed we can open `Synapse Studio` ans start creating a `Data Lake` in which we will create a new database. In this new database we will create a new table and this will be linked with the same `Linked Services` we created when setting up our `Data Lake Storage` . This results as follows:
 
