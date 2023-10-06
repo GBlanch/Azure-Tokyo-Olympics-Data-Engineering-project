@@ -40,6 +40,7 @@ Finally, we will create a new `workspace` for `Synapse Analytics` so that we can
 
 
 [Back to Table of Contents](#table-of-contents)
+&nbsp;    
 
 
 ## Storage Account and Resource Group
@@ -59,6 +60,7 @@ When creating it, besides creating a new `Resource Group`, we need to make sure 
 Once the SA is deployed, we can also access to our new `Resource Group` wherein we can see all the resources available. Note that in the image above, besides de Storage Account, we already created the rest of the services to be used (Data Factory, Databricks and Synapse Analytics)
 
 [Back to Table of Contents](#table-of-contents)
+&nbsp;    
 
 
 ## Data Lake Storage 
