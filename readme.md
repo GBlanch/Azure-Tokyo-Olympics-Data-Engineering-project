@@ -197,14 +197,14 @@ And so we are all set to start writting the `transformation Spark code`. This is
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/135e2379-57cb-4165-bd89-f32895a64c82)
 
 
-After executing all the data transformation, we can perform some brief transformation operations, such as:
+After executing all the basic data transformation, we can even perform here in `Databricks` some other essential analytical queries such as:
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/c4bab543-bb6f-4617-a1ee-f514d04cbac8)
 
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/3e7359e9-e1d9-4509-9e24-79b5885f2d1e)
 
-For more transformation and analytic queries, please refer to the entire script and its explanation  which can be found [`here`](). 
+For more transformation and analytic queries using `Spark Apache` , please refer to the entire script and its explanation which can be found [`here`](). 
 
 Moving forward, we are ready to write the data into our container. The code for doing this is shown in the first image below:
 
@@ -212,8 +212,7 @@ Moving forward, we are ready to write the data into our container. The code for 
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/7aa5bed4-e622-4691-810a-25999cabf308)
 
-
-In the image above we see how `Apache Spark` stores the data in the form of different type of metadata, all of them being Binary Large Objects (blob) in this case. In case the data to be transferred is really large, we can even select the number of partitions we want to create for this dataset.
+In the image above we see how `Apache Spark` stores the data in the form of different type of metadata, all of them being Binary Large Objects (blob) in this case. Was the data to be transferred really large, we could even select the number of partitions we could want to create for that dataset.
 
 [Back to Table of Contents](#table-of-contents)
 &nbsp;    
