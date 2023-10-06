@@ -79,6 +79,8 @@ Inside this container, we will create 2 new `Directories`. The function of these
 
 
 [Back to Table of Contents](#table-of-contents)
+&nbsp;    
+&nbsp;    
 
 
 ## Data Factory Ingestion Pipeline
@@ -139,6 +141,8 @@ And so we can find all these datasets inside our raw-data directory we created b
 Therefore, after finalizing the ingestion and storage of the data, we can move onto the Transformation stage with Azure Databricks service
 
 [Back to Table of Contents](#table-of-contents)
+&nbsp;    
+&nbsp;    
 
 ## Azure Databricks Transformation
 
@@ -176,7 +180,8 @@ Then it's all set to start writting the `transformation Spark code` which can be
 
 
 [Back to Table of Contents](#table-of-contents)
-
+&nbsp;    
+&nbsp;    
 
 ## Synapse Analytics
 
