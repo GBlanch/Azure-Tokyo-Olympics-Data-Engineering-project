@@ -205,7 +205,8 @@ Next, we will briefly show how we read, transform and load some of the data at o
 After performing all the data transformation, we can perform some brief transformation operations, such as:
 
 
-![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/23eedf8d-c72d-4c9d-95a4-876d2108f76c)
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/c4bab543-bb6f-4617-a1ee-f514d04cbac8)
+
 
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/3e7359e9-e1d9-4509-9e24-79b5885f2d1e)
