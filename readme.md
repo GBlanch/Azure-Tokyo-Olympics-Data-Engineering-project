@@ -208,7 +208,7 @@ After performing all the data transformation, we can perform some brief transfor
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/23eedf8d-c72d-4c9d-95a4-876d2108f76c)
 
 
-![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/b45e0616-9982-4de6-8924-9bbe7972f2d3)
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/3e7359e9-e1d9-4509-9e24-79b5885f2d1e)
 
 
 we are ready to write the data into our container. 
@@ -216,7 +216,8 @@ The code for doing this is shown in the first image below:
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/9f81be94-3fef-47a5-ab93-de66961142ea)
 
-![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/694dbe59-f8ef-4e8a-81a1-549a0844d666)
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/7aa5bed4-e622-4691-810a-25999cabf308)
+
 
 
 In the image above we see how `Apache Spark` stores the data in the form of different type of metadata, all of them being Binary Large Objects (blob) in this case. In case the data to be transferred is really large, we can even select the number of partitions we want to create for this dataset.
