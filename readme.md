@@ -254,14 +254,19 @@ Once all the tables are created and validated, we can publish them into our data
 We are ready now to create a new SQL script in which we can define the queries we want to visualize through the `Results` tab in form of `Tables` and `Charts`.
 
 
+Average number of entries by gender for each discipine, more than 100 entries
+
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/2ecbaab0-41df-4c0f-abd7-a95cb189ee31)
 
+Average number of entries by gender for each discipine, less than 100 entries
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/be689c4d-39e0-4b5b-b422-55b65c1435d8)
 
+Medals of the Top 10th countries
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/2d287fa5-08df-4b24-b753-c81ee2a8ee4e)
 
+Medals of the countries between 10th and 25th position
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/dc081fef-557f-46df-aa93-8d0992124361)
 
