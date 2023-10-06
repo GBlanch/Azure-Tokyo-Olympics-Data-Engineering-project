@@ -193,11 +193,15 @@ Once we have done all this, we will be able to mount the data lake shown below i
 
 Then it's all set to start writting the `transformation Spark code`. This code  - and thee explanation of it - can be found [`here`](). Please note that we could have also elaborated our analytic queries in this script here as well, as it's shown in this [other Azure project]()
 
-Once we're ready to write the data into our container
+After performing all the data transformation and we're ready to write the data into our container. 
+The code for doing this is shown in the first image below:
+
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/9f81be94-3fef-47a5-ab93-de66961142ea)
+
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/2730c381-be7a-4b62-bd7f-e8273ebf5db2)
 
-In the image above we see how `Apache Spark` stores the data in the form of different type of metadata, all of them being Binary Large Objects in this case. In case the data to be transferred is really large, we can even select the number of partitions we want to create of this file
+In the image above we see how `Apache Spark` stores the data in the form of different type of metadata, all of them being Binary Large Objects (blob) in this case. In case the data to be transferred is really large, we can even select the number of partitions we want to create of this file
 
 [Back to Table of Contents](#table-of-contents)
 &nbsp;    
