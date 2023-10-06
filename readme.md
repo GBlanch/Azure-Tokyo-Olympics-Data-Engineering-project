@@ -191,34 +191,26 @@ Once we have done all this, we will be able to mount the data lake shown below i
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/661f893f-d849-46da-83fc-d3a408e0031e)
 
-Then it's all set to start writting the `transformation Spark code`. Although we are about to show here some steps of it, the entire script and its explanation can be found [`here`](). 
 
-Please note also that we could have elaborated our analytic queries in this script here as well, as it's shown in this [other Azure project]()
-
-Next, we will briefly show how we read, transform and load some of the data at once. We will use the function `option()` to regard the first row as the header, as well as to cast some of the data type from string to integer. The two Spark property names to be used within this function `option()` are `header` and `inferSchema`, and they are shown below:
+And so we are all set to start writting the `transformation Spark code`. This is, we will briefly show how we read, transform and load some of the data at once. We will use the function `option()` to regard the first row as the header, as well as to cast some of the data type from string to integer. The two Spark property names to be used within this function `option()` are `header` and `inferSchema`, and they are shown below:
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/135e2379-57cb-4165-bd89-f32895a64c82)
 
 
-
-
-After performing all the data transformation, we can perform some brief transformation operations, such as:
-
+After executing all the data transformation, we can perform some brief transformation operations, such as:
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/c4bab543-bb6f-4617-a1ee-f514d04cbac8)
 
 
-
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/3e7359e9-e1d9-4509-9e24-79b5885f2d1e)
 
+For more transformation and analytic queries, please refer to the entire script and its explanation  which can be found [`here`](). 
 
-we are ready to write the data into our container. 
-The code for doing this is shown in the first image below:
+Moving forward, we are ready to write the data into our container. The code for doing this is shown in the first image below:
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/9f81be94-3fef-47a5-ab93-de66961142ea)
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/7aa5bed4-e622-4691-810a-25999cabf308)
-
 
 
 In the image above we see how `Apache Spark` stores the data in the form of different type of metadata, all of them being Binary Large Objects (blob) in this case. In case the data to be transferred is really large, we can even select the number of partitions we want to create for this dataset.
