@@ -190,7 +190,9 @@ We will do this through the IAM framework within the container we created before
 
 Once we have done all this, we will be able to mount the data lake shown below into this new location/mounting point `/mnt/tokyoolympic`, this is to say:
 
-![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/21264250-1946-4109-a7a3-522a6e2499ac)
+
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/1f4531c6-ed65-4094-b6d8-3a1bd53fb859)
+
 
 
 
