@@ -191,15 +191,27 @@ Once we have done all this, we will be able to mount the data lake shown below i
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/661f893f-d849-46da-83fc-d3a408e0031e)
 
-Then it's all set to start writting the `transformation Spark code`. Although we are about to show here some steps of it , the entire script and its explanation can be found [`here`](). 
+Then it's all set to start writting the `transformation Spark code`. Although we are about to show here some steps of it, the entire script and its explanation can be found [`here`](). 
 
 Please note also that we could have elaborated our analytic queries in this script here as well, as it's shown in this [other Azure project]()
 
-Next, we will briefly show how we read and transform some of the data at once. We will use the function `option()` to regard the first row as the header, as well as to cast some of the data type from string to integer. The two Spark property names to be used within this function `option()` are `header` and `inferSchema`, and they are shown below
+Next, we will briefly show how we read, transform and load some of the data at once. We will use the function `option()` to regard the first row as the header, as well as to cast some of the data type from string to integer. The two Spark property names to be used within this function `option()` are `header` and `inferSchema`, and they are shown below:
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/135e2379-57cb-4165-bd89-f32895a64c82)
 
-After performing all the data transformation and we're ready to write the data into our container. 
+
+
+
+After performing all the data transformation, we can perform some brief transformation operations, such as:
+
+
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/23eedf8d-c72d-4c9d-95a4-876d2108f76c)
+
+
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/b45e0616-9982-4de6-8924-9bbe7972f2d3)
+
+
+we are ready to write the data into our container. 
 The code for doing this is shown in the first image below:
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/9f81be94-3fef-47a5-ab93-de66961142ea)
