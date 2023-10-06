@@ -179,7 +179,9 @@ Once we have these 3 credentials, it is highly recommended to store them into a 
 
 Moving forward, we can proceed now to write the `Apache Spark script` in which we will create our `configuration format`(a.k.a. config) and `mounting point`, as they are shown below respectively:
 
-![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/2cedd341-9e4d-4b3e-a9bd-44c6bc72ceaf)
+
+<p align="center">
+<img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/2cedd341-9e4d-4b3e-a9bd-44c6bc72ceaf"  width="60%" height="60%">
 
 The last step to configure prior to start our transformation code, is to explicitly give access to the app to handle - or even read -any kind of object from the selected container. 
 
