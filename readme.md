@@ -210,6 +210,8 @@ Moving forward, we are ready to write the data into our container. The code for 
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/9f81be94-3fef-47a5-ab93-de66961142ea)
 
+And so, if we check our container, we can find our objects written/stored there:
+
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/7aa5bed4-e622-4691-810a-25999cabf308)
 
 In the image above we see how `Apache Spark` stores the data in the form of different type of metadata, all of them being Binary Large Objects (blob) in this case. Was the data to be transferred really large, we could even select the number of partitions we could want to create for that dataset.
