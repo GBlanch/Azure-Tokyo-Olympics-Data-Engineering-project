@@ -240,7 +240,6 @@ Once the deployment is completed we can open `Synapse Studio` ans start creating
 <img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/ebc63d25-1674-4bd0-ba76-596a9da0f85b"  width="50%" height="50%">
 
 When being asked for the input file or directory, we will browse to the location in which we stored the partition files we generated at the end of the [`transformation Spark code`]() in `Azure Databricks`. These being:
-bs
 
 <p align="center">
 <img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/468df478-1b04-474c-b786-d9691b480f57"  width="100%" height="100%">
