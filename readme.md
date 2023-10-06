@@ -185,6 +185,8 @@ Once we have done all this, we will be able to mount the data lake shown below i
 
 Then it's all set to start writting the `transformation Spark code` which can be found [`here`]().
 
+Please note that we could have also elaborated our analytic queries in this script as well, as it's shown in this [other project]()
+
 
 [Back to Table of Contents](#table-of-contents)
 &nbsp;    
