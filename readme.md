@@ -44,7 +44,7 @@ Finally, we will create a new `workspace` for `Synapse Analytics` so that we can
 
 For this project, we will use all the services from the same provider, even for the ETL pipeline. That is, from raw and flat file/object storage to the execution of the analytics, we will be using `Microsoft Azure`. 
 
-All the services to be utilized were mentioned within the previous section `Architecture of the Data Pipeline`.
+All the services to be utilized were mentioned within the previous section [Architecture of the Data Pipeline](#architecture-of-the-data-pipeline).
 
 [Back to Table of Contents](#table-of-contents)
 &nbsp;    
