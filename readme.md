@@ -221,3 +221,8 @@ Once all the tables are created and validated, we can publish them into our data
 <img src="https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/d91740bf-ef1c-4208-9586-f8e15d5b82f6"  width="100%" height="100%">
 
 We can create a new SQL script in which we can define the queries we want to visualize through the `Results` tab in form of `Tables` and `Charts`.
+
+[Back to Table of Contents](#table-of-contents)
+&nbsp;    
+&nbsp;    
+
