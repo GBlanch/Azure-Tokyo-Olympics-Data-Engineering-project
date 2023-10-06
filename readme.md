@@ -1,6 +1,8 @@
 # Azure Tokyo Olympics Data Engineering project
 
 work in progress
+&nbsp;    
+&nbsp;    
 
 ## Table of Contents
 
@@ -12,10 +14,13 @@ work in progress
 - [Data Factory Ingestion Pipeline](#data-factory-ingestion-pipeline)
 - [Azure Databricks Transformation](#azure-databricks-transformation)
 - [Synapse Analytics](#synapse-analytics)
+&nbsp;    
+&nbsp;
 
 ## Introduction
 
-
+&nbsp;    
+&nbsp;    
 ## Architecture of the Data Pipeline
 
 
