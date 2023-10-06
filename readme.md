@@ -41,6 +41,7 @@ Finally, we will create a new `workspace` for `Synapse Analytics` so that we can
 
 [Back to Table of Contents](#table-of-contents)
 &nbsp;    
+&nbsp;    
 
 
 ## Storage Account and Resource Group
@@ -61,7 +62,7 @@ Once the SA is deployed, we can also access to our new `Resource Group` wherein 
 
 [Back to Table of Contents](#table-of-contents)
 &nbsp;    
-
+&nbsp;    
 
 ## Data Lake Storage 
 
