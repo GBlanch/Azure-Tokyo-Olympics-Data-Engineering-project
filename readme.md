@@ -177,7 +177,7 @@ Once our app is created and we have its `Application (client) ID` and `Directory
 
 Once we have these 3 credentials, it is highly recommended to store them into a Key Vault. This would minimize the chances for our credentials to be exposed/leaked through our code.
 
-Moving foward, we can proceed now to write the `Apache Spark script` in where we will create our `configuration format` and `mounting point`, as they are shown below respectively:
+Moving foward, we can proceed now to write the `Apache Spark script` in which we will create our `configuration format`(a.k.a. config) and `mounting point`, as they are shown below respectively:
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/2cedd341-9e4d-4b3e-a9bd-44c6bc72ceaf)
 
