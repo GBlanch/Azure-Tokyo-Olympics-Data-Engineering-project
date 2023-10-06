@@ -27,9 +27,9 @@ work in progress
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/6da6ca7c-1650-4371-8118-576bbb9f2fee)
 
 
-The raw data will be dowmloaded from [Kaggle datasets](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo/data) in `xls` format and then saved as `csv` files into [`this`](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/tree/main/data/raw) github directory. 
+The raw data will be downloaded from [Kaggle datasets](https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo/data) in `xls` format and then saved as `csv` files into [`this`](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/tree/main/data/raw) github directory. 
 
-Prior to starting with any of the Azure Tools or Services, we will neeed to create a new `Storage Account` and `Resource Group`.
+Prior to starting with any of the Azure Tools or Services, we will need to create a new `Storage Account` and `Resource Group`.
 
 The next step will be to create and use `Data Factory` service in order to load/ingest this raw data into the 'raw' directory which will be located in our `Data Lake Storage`. This data ingestion will be the result of the pipeline to be created within the Data Factory.
 
@@ -177,7 +177,7 @@ Once our app is created and we have its `Application (client) ID` and `Directory
 
 Once we have these 3 credentials, it is highly recommended to store them into a Key Vault. This would minimize the chances for our credentials to be exposed/leaked through our code.
 
-Moving foward, we can proceed now to write the `Apache Spark script` in which we will create our `configuration format`(a.k.a. config) and `mounting point`, as they are shown below respectively:
+Moving forward, we can proceed now to write the `Apache Spark script` in which we will create our `configuration format`(a.k.a. config) and `mounting point`, as they are shown below respectively:
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/2cedd341-9e4d-4b3e-a9bd-44c6bc72ceaf)
 
@@ -194,7 +194,9 @@ Once we have done all this, we will be able to mount the data lake shown below i
 
 
 
-And so we are all set to start writting the `transformation Spark code`. This is, we will briefly show how we read, transform and load some of the data at once. We will use the function `option()` to regard the first row as the header, as well as to cast some of the data type from string to integer. The two Spark property names to be used within this function `option()` are `header` and `inferSchema`, and they are shown below:
+And so we are all set to start writing the `transformation Spark code`. This is, we will briefly show how we read, transform and load some of the data at once. 
+
+We will use the function `option()` to regard the first row as the header, as well as to cast some of the data type from string to integer. The two Spark property names to be used within this function `option()` are `header` and `inferSchema`, and they are shown below:
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/135e2379-57cb-4165-bd89-f32895a64c82)
 
@@ -229,7 +231,7 @@ We start creating its workspace the same way as we did with `Azure Databricks`. 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/7bfdf79a-a2ac-49c3-b8d7-b09cf1a592e3)
 
 
-Once these changes are deployed, we can open `Synapse Studio` ans start creating a `Data Lake` in which we will create a new database. In this new database we will create a new table and this will be linked with the same `Linked Services` we created when setting up our `Data Lake Storage` . This results as follows:
+Once these changes are deployed, we can open `Synapse Studio` and start creating a `Data Lake` in which we will create a new database. In this new database we will create a new table and this will be linked with the same `Linked Services` we created when setting up our `Data Lake Storage` . This results as follows:
 
 
 
