@@ -175,14 +175,17 @@ Once our app is created and we have its `Application (client) ID` and `Directory
 
 Once we have these 3 credentials, it is highly recommended to store them into a Key Vault. This would minimize the chances for our credentials to be exposed/leaked through our code.
 
-Moving foward, we can proceed now to write the `Apache Spark script` in where we will create our configuration format, as shown below"
+Moving foward, we can proceed now to write the `Apache Spark script` in where we will create our `configuration format` and `mounting point`, as they are shown below respectively:
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/33978b19-99a4-4275-af43-aa3b55185a22)
 
 
-The last step to configure prior to start our Spark code, is to explicitly give access to the app to handle - or even read -any kind of object from the selected container. We will do this through the IAM framework within the container we created before. We will select `Storage Blob Data Contributor` in the section `Add role assignment`
+The last step to configure prior to start our transformation code, is to explicitly give access to the app to handle - or even read -any kind of object from the selected container. 
 
-![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/45e8391f-0ebe-4a01-9622-53cf683359dd)
+We will do this through the IAM framework within the container we created before. We will select `Storage Blob Data Contributor` in the section `Add role assignment`
+
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/73f9be87-fbdd-4b06-b133-5414289826d6)
+
 
 Once we have done all this, we will be able to mount the data lake shown below into this new location/mounting point `/mnt/tokyoolympic`, this is to say:
 
