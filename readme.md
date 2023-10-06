@@ -191,7 +191,13 @@ Once we have done all this, we will be able to mount the data lake shown below i
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/661f893f-d849-46da-83fc-d3a408e0031e)
 
-Then it's all set to start writting the `transformation Spark code`. This code  - and thee explanation of it - can be found [`here`](). Please note that we could have also elaborated our analytic queries in this script here as well, as it's shown in this [other Azure project]()
+Then it's all set to start writting the `transformation Spark code`. Although we are about to show here some steps of it , the entire script and its explanation can be found [`here`](). 
+
+Please note also that we could have elaborated our analytic queries in this script here as well, as it's shown in this [other Azure project]()
+
+Next, we will briefly show how we read and transform some of the data at once. We will use the function `option()` to regard the first row as the header, as well as to cast some of the data type from string to integer. The two Spark property names to be used within this function `option()` are `header` and `inferSchema`, and they are shown below
+
+![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/135e2379-57cb-4165-bd89-f32895a64c82)
 
 After performing all the data transformation and we're ready to write the data into our container. 
 The code for doing this is shown in the first image below:
@@ -201,7 +207,7 @@ The code for doing this is shown in the first image below:
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/2730c381-be7a-4b62-bd7f-e8273ebf5db2)
 
-In the image above we see how `Apache Spark` stores the data in the form of different type of metadata, all of them being Binary Large Objects (blob) in this case. In case the data to be transferred is really large, we can even select the number of partitions we want to create of this file
+In the image above we see how `Apache Spark` stores the data in the form of different type of metadata, all of them being Binary Large Objects (blob) in this case. In case the data to be transferred is really large, we can even select the number of partitions we want to create for this dataset.
 
 [Back to Table of Contents](#table-of-contents)
 &nbsp;    
