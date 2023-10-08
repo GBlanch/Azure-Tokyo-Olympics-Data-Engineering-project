@@ -39,6 +39,10 @@ By the end of this stage, the transformed data will be loaded into the 'transfor
 
 Finally, we will create a new `workspace` for `Synapse Analytics` so that we can create a new `Lake database`. In this Lake database, we will have available all the databases which are also stored in the previously mentioned 'transformed' directory in our `Data Lake Storage`. We will also be able to create a SQL script with some queries so that we can have a quick glance at some visualizations and analytics about these datasets.
 
+[Back to Table of Contents](#table-of-contents)
+&nbsp;    
+&nbsp;    
+
 
 ## Code and Services utilized
 
