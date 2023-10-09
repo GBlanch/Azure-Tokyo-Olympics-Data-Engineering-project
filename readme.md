@@ -19,6 +19,11 @@ work in progress
 
 ## Introduction
 
+The main purpose of this project is to detail the core stages of an end-to-end pipeline Data Engineering project. Therefore, many of the aspects regarding Business Intelligence, Analytics and Dashboarding will be out of the scope for this project.
+
+The structure of the architecture of this end-to-end data pipeline is detailed in the following section.  
+
+
 &nbsp;    
 &nbsp;    
 ## Architecture of the Data Pipeline
