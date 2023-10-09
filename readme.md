@@ -53,7 +53,9 @@ Finally, we will create a new `workspace` for `Synapse Analytics` so that we can
 
 For this project, we will use all the services from the same provider. This is, from raw and flat file/object storage up to the execution of the analytics, this provider will be `Microsoft Azure`. All of these services to be utilized are mentioned within the previous section [Architecture of the Data Pipeline](#architecture-of-the-data-pipeline).
 
-In terms of coding, we will mainly be using `Apache Spark` with `Python` as the analytics engine to power the compute cluster and SQL warehouse when performing the Transformation and Analytic works, respectively.
+In terms of coding, we will mainly be using `Python` within `Apache Spark` as the analytics engine to power the compute cluster and SQL warehouse when performing the Transformation and Analytic works, respectively.
+
+At the end of the project, we will also run some queries in `SQL` to get some quick graphs and figures.
 
 
 [Back to Table of Contents](#table-of-contents)
