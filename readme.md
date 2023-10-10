@@ -1,6 +1,5 @@
 # Azure Tokyo Olympics Data Engineering project
 
-work in progress
 &nbsp;    
 &nbsp;    
 
