@@ -9,9 +9,9 @@
 - [Architecture of the Data Pipeline](#architecture-of-the-data-pipeline)
 - [Code and Services utilized](#code-and-services-utilized)
 - [Storage Account and Resource Group](#storage-account-and-resource-group)
-- [Data Lake Storage](#data-lake-storage)
-- [Data Factory Ingestion Pipeline](#data-factory-ingestion-pipeline)
-- [Azure Databricks Transformation](#azure-databricks-transformation)
+- [Storage within Data Lake](#storage-within-data-lake)
+- [Ingestion Pipeline through Data Factory](#ingestion-pipeline-through-data-factory)
+- [Transformation within Azure Databricks](#transformation-within-azure-databricks)
 - [Synapse Analytics](#synapse-analytics)
 &nbsp;    
 &nbsp;
@@ -82,7 +82,7 @@ Once the SA is deployed, we can also access to our new `Resource Group` wherein 
 &nbsp;    
 &nbsp;    
 
-## Data Lake Storage 
+## Storage within Data Lake 
 
 Since we have already our Storage Account all set up, we are ready to create a new `Container` to store our data in the `Data Lake`. 
 
@@ -103,7 +103,7 @@ Inside this container, we will create 2 new `Directories`. The function of these
 &nbsp;    
 
 
-## Data Factory Ingestion Pipeline
+## Ingestion Pipeline through Data Factory
 
 When creating our Data Factory, we will select the same `Resource Group` and create a new instance based on our closest region. This will enable the resources available in this integration service.
 
@@ -164,7 +164,7 @@ Therefore, after finalizing the ingestion and storage of the data, we can move o
 &nbsp;    
 &nbsp;    
 
-## Azure Databricks Transformation
+## Transformation within Azure Databricks
 
 Likewise when we set up our Data Factory service, we will use the same `Resource Group` that we created when setting up our `Storage Account` at the beginning of this project:
 
