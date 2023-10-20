@@ -278,6 +278,7 @@ Average number of entries by gender for each discipine, more than 100 entries...
 ..and  less than 100 entries
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/be689c4d-39e0-4b5b-b422-55b65c1435d8)
+(no male athletes for Rythmic Gymnastics, the dataset is not mistaken)
 &nbsp;    
 &nbsp;    
 Medals of the Top 10th countries...
