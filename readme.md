@@ -166,6 +166,8 @@ Therefore, after finalizing the ingestion and storage of the data, we can move o
 
 ## Transformation within Azure Databricks
 
+(See the script elaborated in Databricks [here](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/blob/main/TO_DE_Trans.script_nokey.ipynb))
+
 Likewise when we set up our Data Factory service, we will use the same `Resource Group` that we created when setting up our `Storage Account` at the beginning of this project:
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/df4b6961-c4cc-412f-adb4-25a694066210)
@@ -221,7 +223,7 @@ After executing all the basic data transformation, we can even perform here in `
 
 ![image](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/assets/136500426/3e7359e9-e1d9-4509-9e24-79b5885f2d1e)
 
-For more transformation and analytic queries using `Spark Apache` , please refer to the entire script and its explanation which can be found [`here`](). 
+For more transformation and analytic queries using `Spark Apache` , please refer to the entire script and its explanation which can be found [`here`](https://github.com/GBlanch/Azure-Tokyo-Olympics-Data-Engineering-project/blob/main/TO_DE_Trans.script_nokey.ipynb). 
 
 Moving forward, we are ready to write the data into our container. The code for doing this is shown in the first image below:
 
